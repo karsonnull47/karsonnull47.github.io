@@ -64,3 +64,24 @@ p{
 .hero a:hover{
     text-decoration:underline;
 }
+
+.about {
+    padding: 6px;
+    background-color: #64748B;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+}
+
+.about h1{
+    margin: 0;
+}
+
+.about a{
+    color: white;
+    text-decoration: none;
+    background-color: #2c572e;
+    padding: 6px;
+    border-radius: 3px;
+}
