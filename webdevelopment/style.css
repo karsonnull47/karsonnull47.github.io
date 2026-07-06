@@ -40,3 +40,27 @@ p{
     font-size: 18px;
     font-family: inter;
 }
+
+.hero {
+    background-color: #64748B;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+}
+
+.hero h1{
+    margin: 0;
+}
+
+.hero a {
+    color: white;
+    text-decoration: none;
+    background-color: #2c572e;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.hero a:hover{
+    text-decoration:underline;
+}
