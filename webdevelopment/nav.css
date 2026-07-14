@@ -10,4 +10,5 @@ nav ul {
 img {
     width: 50px;
     height: auto;
+    border: 5px solid red;
 }
