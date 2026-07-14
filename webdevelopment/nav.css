@@ -6,3 +6,8 @@ nav ul {
     gap: 20px;
     font-size: 24px;
 }
+
+header img {
+    width: 50px;
+    height: auto;
+}
