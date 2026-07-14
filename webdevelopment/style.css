@@ -87,6 +87,6 @@ p{
 }
 
 header img {
-    width: 50px;
+    width: 50px !important;
     height: auto;
 }  
