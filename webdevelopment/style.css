@@ -104,6 +104,21 @@ p{
     text-decoration:underline;
 }
 
+.about img{
+    margin: 10px;
+    max-width: 250px;
+    border: 6px solid #212fb5;
+}
+
+.about video{
+    margin: 15px;
+    border: 6px solid #212fb5;
+}
+
+.about img:hover{
+    zoom: 110%;
+}
+
 .reflection{
     padding: 6px;
     background-color: #64748B;
