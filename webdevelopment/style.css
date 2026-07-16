@@ -104,3 +104,20 @@ p{
     text-decoration:underline;
 }
 
+.reflection{
+    padding: 6px;
+    background-color: #64748B;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 18px;
+    padding-left: 8px;
+}
+
+.reflection h1{
+    margin: 0;
+}
+
+.reflection h2{
+    text-indent: 2%;
+}
+
