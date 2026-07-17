@@ -136,3 +136,9 @@ p{
     text-indent: 2%;
 }
 
+@media print{
+    nav, header, img, video, a {display: none;}
+    *{color: black !important;}
+    body {font-family: "Times New Roman", serif;}
+    @page {margin: 1in;}
+}
