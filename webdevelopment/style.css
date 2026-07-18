@@ -142,3 +142,20 @@ p{
     body {font-family: "Times New Roman", serif;}
     @page {margin: 1in;}
 }
+
+footer{
+    transform: scale(0.7);
+    transform-origin: left center;
+    position: relative;
+    bottom: 30px;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+}
