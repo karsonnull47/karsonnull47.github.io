@@ -159,3 +159,25 @@ footer{
     display: flex;
     gap: 10px;
 }
+
+.contact{
+    padding: 6px;
+    background-color: #64748B;
+    font-weight: 800;
+    padding-top: 6px;
+    padding-bottom: 18px;
+    padding-left: 8px;
+    font-family: Cinzel;
+    font-size:24px;
+}
+
+.contact h1{
+    margin: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+}
