@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Name: Karson Null
+    Date: 07/19/2026
+    Course: Web Design and Development
+    Description: Placeholder
+    -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="style.css">
+        <link rel = "stylesheet" href="nav.css">
+        <link rel = "shortcut icon" type="image/x-icon" href="../webcontent/favicon.ico">
+        <title>Resume Contact Page</title>
+    </head>
+
+    <body>
+    <header>
+        <!--Where the logo and nav bars are placed-->
+        <img class="logo" src='../webcontent/logo.png' alt="Site Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="c.html">Career</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="contact">
+        <h1>
+            Contact Info
+        </h1>
+
+        <!--Contact Form begins here-->
+        <form class="form" action="#" method="post">
+        <!--Title-->
+        <label for="title">Title</label>
+        <select id="title" name="title" required>
+            <option value="" selected disabled>Select your title</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Dr.">Dr.</option>
+        </select>
+
+        <!--Full Name-->
+        <label for="fullname">Full Name</label>
+            <input type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+                required>
+
+        <!--Email Address-->
+        <label for="email">Email Address</label>
+            <input type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required>
+        
+        <!--Message-->
+        <label for="message">Message</label>
+            <textarea 
+                id="message"
+                name="message"
+                placeholder="Enter a message"
+                required></textarea>
+
+        <!--Reason for Contact-->
+        <label for="selectmenu">Reason for Contact</label>
+        <select id="selectmenu" name="selectmenu" required>
+            <option value="" selected disabled>Reason for Contact</option>
+            <option value="Question">Question</option>
+            <option value="Job Opportunity">Job Opportunity</option>
+            <option value="Advice/Feedback">Advice/Feedback</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <!--Submission Button-->
+        <input type="submit">
+        </form>
+        </section>
+
+    <footer>
+        <!--Name and date, day must be changed-->
+        <h2>Karson Null, 07/19/2026</h2>
+        <div class = "phone">
+            <img src="../webcontent/phone.png" alt="phone">
+            <h3>(573) 814-1900</h3>
+        </div>
+        <div class = "email">
+            <img src="../webcontent/mail.png" alt="email">
+            <h3>kgnf4w@umsystem.edu</h3>
+        </div>
+    </footer>
+    </body>
+
+</html>
