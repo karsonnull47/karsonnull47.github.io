@@ -160,6 +160,7 @@ footer{
     gap: 10px;
 }
 
+/*General styling for contact page, including fixing of the fonts since they do not fall under the h1 and h2 declarations that have been used thus far.*/
 .contact{
     padding: 6px;
     background-color: #64748B;
@@ -171,10 +172,12 @@ footer{
     font-size:24px;
 }
 
+/*Removes dead space on page*/
 .contact h1{
     margin: 0;
 }
 
+/*Spacing for the form materials themselves*/
 .form{
     display: flex;
     flex-direction: column;
