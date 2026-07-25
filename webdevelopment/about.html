@@ -20,16 +20,27 @@
         <header>
         <!--Where the logo and nav bars are placed-->
         <img class="logo" src='../webcontent/logo.png' alt="Site Logo">
+        <div class="hamburger">
+            ☰
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="c.html">Career</a></li>
+                <li class="dropdown-parent">
+                    <a href="career.html">Career</a>
+                
+                    <ul class="dropdown">
+                        <li><a href="#">Home Depot</a></li>
+                        <li><a href="#">IT Intern</a></li>
+                        <li><a href="#">Three Rivers Event Staff</a></li>
+                    </ul>                    
+                </li>
                 <li><a href="reflection.html">Reflection</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        </header>
+    </header>
         
         <section class="about"> 
         <h1>A little about me...</h1>
