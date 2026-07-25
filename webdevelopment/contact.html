@@ -2,7 +2,7 @@
 <html lang="en">
     <!--
     Name: Karson Null
-    Date: 07/19/2026
+    Date: 07/24/2026
     Course: Web Design and Development
     Description: Placeholder
     -->
@@ -19,11 +19,22 @@
     <header>
         <!--Where the logo and nav bars are placed-->
         <img class="logo" src='../webcontent/logo.png' alt="Site Logo">
+        <div class="hamburger">
+            ☰
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="c.html">Career</a></li>
+                <li class="dropdown-parent">
+                    <a href="career.html">Career</a>
+                
+                    <ul class="dropdown">
+                        <li><a href="#">Home Depot</a></li>
+                        <li><a href="#">IT Intern</a></li>
+                        <li><a href="#">Three Rivers Event Staff</a></li>
+                    </ul>                    
+                </li>
                 <li><a href="reflection.html">Reflection</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -88,7 +99,7 @@
 
     <footer>
         <!--Name and date, day must be changed-->
-        <h2>Karson Null, 07/19/2026</h2>
+        <h2>Karson Null, 07/24/2026</h2>
         <div class = "phone">
             <img src="../webcontent/phone.png" alt="phone">
             <h3>(573) 814-1900</h3>
