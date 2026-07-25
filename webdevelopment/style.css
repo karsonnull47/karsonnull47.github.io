@@ -156,6 +156,10 @@ p{
         grid-template-columns:1fr;
     }
 
+    .about img{
+          justify-self:center;
+      }
+
     .right-column{
         grid-column:1;
         grid-row: auto;
