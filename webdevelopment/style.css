@@ -132,8 +132,12 @@ p{
 }
 
 .about video{
+    width: 100%;
+    max-width: 400px;
+    height:auto;
     margin: 15px;
     border: 6px solid #212fb5;
+    box-sizing: border-box;
 }
 
 .about img:hover{
@@ -154,7 +158,9 @@ p{
 
     .right-column{
         grid-column:1;
+        grid-row: auto;
         justify-self:center;
+        align-self: end;
     }
 }
 
