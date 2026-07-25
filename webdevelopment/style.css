@@ -148,7 +148,7 @@ p{
     grid-row: 1/ span 5;
     align-self:start;
     text-align: center;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 @media screen and (max-width:768px){
