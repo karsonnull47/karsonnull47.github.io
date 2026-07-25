@@ -1,4 +1,10 @@
-nav ul {
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+nav > ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -7,7 +13,59 @@ nav ul {
     font-size: 24px;
 }
 
-.logo{
+.logo {
     width: 200px;
     height: auto;
+}
+
+.hamburger{
+    display: none;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    background-color:#212fb3; 
+    min-width:120px;
+    border:3px solid black;
+}
+
+.dropdown li{
+    text-align: left;
+    font-size: 17px;
+    padding: 8px 12px;
+}
+
+.dropdown a{
+    display: block;
+    text-align:left;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-parent{
+    position: relative;
+}
+
+.dropdown-parent:hover .dropdown{
+    display:block;
+}
+
+@media screen and (max-width: 600px){
+    nav{display:none;}
+
+    .hamburger{
+        display: block;
+        font-size:32px;
+        cursor: pointer;
+    }
+
+    .dropdown{
+        display: none;
+    }
 }
