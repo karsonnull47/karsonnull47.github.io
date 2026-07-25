@@ -134,7 +134,7 @@ p{
 .about video{
     width: 100%;
     height:auto;
-    margin: 15px;
+    margin: 0 0 15px 0;
     border: 6px solid #212fb5;
     box-sizing: border-box;
 }
