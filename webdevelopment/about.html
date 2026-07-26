@@ -20,12 +20,24 @@
         <header>
         <!--Where the logo and nav bars are placed-->
         <img class="logo" src='../webcontent/logo.png' alt="Site Logo">
-        <div class="hamburger">
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="hamburger">
             ☰
-        </div>
+        </label>
+
+        <!--The navbar dropdown menu, only visible when clicking on the menu.-->
+        <ul class="dropdownnav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
         <nav>
             <ul>
-               <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li class="dropdown-parent">
                     <a href="career.html">Career</a>
