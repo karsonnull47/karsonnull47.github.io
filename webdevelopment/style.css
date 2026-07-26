@@ -216,6 +216,22 @@ footer{
     display: flex;
     gap: 10px;
 }
+/*animation of the phone and email images*/
+.phone img, .email img{
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.phone img:hover{
+    transform: scale(1.2) rotate(-10deg);
+    filter: drop-shadow(1px 1px 10px #2c572e);
+    cursor: pointer;
+}
+
+.email img:hover{
+    transform: scale(1.2) rotate(10deg);
+    filter: drop-shadow(1px 1px 8px #2c572e);
+    cursor: pointer;
+}
 
 /*General styling for contact page, including fixing of the fonts since they do not fall under the h1 and h2 declarations that have been used thus far.*/
 .contact{
