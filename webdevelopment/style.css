@@ -1,7 +1,9 @@
 
+/*The importing of both custom fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/*Custom Font being defined and applied*/
 .cinzel-title {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
@@ -22,16 +24,21 @@ header{
   align-items: center;
 }
 
+/*Custom styles for all <h1> elements*/
 h1{
   color: #212fb5; 
   font-size: 48px;
-  font-family: cinzel
+  font-family: cinzel;
+  text-shadow: 2px 2px 5px gray;
+  letter-spacing: 4px;
 }
 
+/*Custom styles for all <h2> elements*/
 h2{
-    color: black;
     font-size: 24px;
     font-family: inter;
+    text-shadow: 2px 2px 5px gray;
+    text-decoration: underline 1px;
 }
 
 
@@ -145,10 +152,10 @@ p{
 
 .right-column{
     grid-column: 2;
-    grid-row: 1/ span 5;
+    grid-row: 3/ span 5;
     align-self:start;
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 @media screen and (max-width:768px){
@@ -235,7 +242,6 @@ footer{
     max-width: 500px;
 }
 
-/*makes up most of the content of the career page */
 article {
     display: flex;
     flex-direction: column;
@@ -245,7 +251,6 @@ article {
     padding: 20px;
 }
 
-/*this job section is seperate so that it can sit side by side while in desktop view, and switches to vertical on mobile view*/
 .job{
     display: flex;
     align-items: center;
@@ -277,4 +282,5 @@ article img{
     }
 
 }
+
 
