@@ -68,4 +68,32 @@ nav > ul {
     .dropdown{
         display: none;
     }
+
+    .dropdownnav{
+        position:aboslute;
+        list-style: none;
+        background: #64748B;
+        border: 3px solid black;
+    }
+
+    .dropdownnav a{
+        display:block;
+        padding: 10px;
+        text-decoration:none;
+        font-weight: bold;
+        color:black;
+        font-size: 18px;
+    }
+}
+
+#menu-toggle{
+    display:none;
+}
+
+.dropdownnav{
+    display:none;
+}
+
+#menu-toggle:checked + .hamburger + .dropdownnav{
+    display: block;
 }
