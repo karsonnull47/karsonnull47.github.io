@@ -70,7 +70,7 @@ nav > ul {
     }
 
     .dropdownnav{
-        position:aboslute;
+        position:absolute;
         list-style: none;
         background: #64748B;
         border: 3px solid black;
