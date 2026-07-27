@@ -152,10 +152,47 @@ p{
 
 .right-column{
     grid-column: 2;
-    grid-row: 3/ span 5;
+    grid-row: 2/ span 5;
     align-self:start;
     text-align: center;
     max-width: 600px;
+}
+
+.table{
+    grid-column: 1;
+    margin-left: 30px;
+}
+
+.table table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.table th{
+    padding: 12px 25px;
+    border: 1px solid black;
+}
+
+.table td{
+    padding: 12px 25px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table tbody tr:nth-child(1){
+    background-color: #8fa3b8;
+}
+
+.table tbody tr:nth-child(3){
+    background-color: #8fa3b8;
+}
+
+.table tbody tr:nth-child(2){
+    background-color: #455366;
+}
+
+.table tbody tr:nth-child(4){
+    background-color: #455366;
 }
 
 @media screen and (max-width:768px){
@@ -174,6 +211,12 @@ p{
         align-self: end;
         max-width:400px;
     }
+
+    .table{
+        margin-left: 0px;
+        overflow-x:auto;
+    }
+    
 }
 
 .reflection{
@@ -216,6 +259,7 @@ footer{
     display: flex;
     gap: 10px;
 }
+
 /*animation of the phone and email images*/
 .phone img, .email img{
     transition: transform 0.3s ease, filter 0.3s ease;
@@ -298,5 +342,4 @@ article img{
     }
 
 }
-
 
